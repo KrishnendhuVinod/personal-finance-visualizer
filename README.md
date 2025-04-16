@@ -10,7 +10,7 @@ This project is built using **Next.js**, **React**, **MongoDB**, and other moder
 ## Features Implemented So Far
 
 ### 1. **Transaction Management**
-- Users can add transactions including details such as the amount, description, and date.
+- Users can add transactions, including details such as the amount, description, and date.
 - Transactions are saved to a **MongoDB database** and can be retrieved for display.
   
 ### 2. **Transaction List Display**
@@ -21,24 +21,28 @@ This project is built using **Next.js**, **React**, **MongoDB**, and other moder
 - Users can categorize their transactions to help with expense tracking.
 - Categories are displayed in a **dropdown** menu when adding or editing a transaction.
 
-### 4. **Dashboard Overview**
+ ### 4. **Add/Edit/Delete Functionality for Categories**
+- Currently, users can select categories when adding or editing transactions. However, adding, editing, or deleting categories is not yet functional.
+
+
+### 5. **Dashboard Overview**
 - The dashboard displays the following:
   - **Total Expenses** for the current period.
   - **Recent Transactions** for quick insights.
   - **Category Breakdown** (coming soon) of expenses.
 
-### 5. **Monthly Expenses Bar Chart**
+### 6. **Monthly Expenses Bar Chart**
 - A **Monthly Expenses Bar Chart** is being integrated using **Recharts** to visualize the monthly expense data.
 - The data for this chart is fetched from the API and processed for display.
   
-### 6. **Basic Form Validation**
+### 7. **Basic Form Validation**
 - Basic validation has been implemented for the transaction forms to ensure data integrity (e.g., preventing empty values).
 
 ## Pending Features
 
 ### 1. **Add Category-Wise Pie Chart**
 - The goal is to implement a **Pie Chart** that shows the breakdown of expenses by category.
-- This feature is partially implemented but needs further refinements for data extraction and chart rendering.
+- This feature is partially implemented but needs further data extraction and chart rendering refinement.
 
 ### 2. **Transaction Editing and Deleting**
 - Users can edit or delete transactions, but the backend logic for deleting and updating transactions is still under development.
@@ -46,10 +50,7 @@ This project is built using **Next.js**, **React**, **MongoDB**, and other moder
 ### 3. **Monthly Expenses Breakdown**
 - The functionality to visualize the monthly breakdown of expenses (e.g., in a bar chart or line graph) is partially implemented but needs further improvements.
   
-### 4. **Add/Edit/Delete Functionality for Categories**
-- Currently, users can select categories when adding or editing transactions. However, adding, editing, or deleting categories is not yet functional.
-
-### 5. **Error Handling and State Management**
+### 4. **Error Handling and State Management**
 - Although some basic error handling has been implemented, more robust state management for various operations (such as adding and updating transactions) is still a work in progress.
 
 ## Technologies Used
